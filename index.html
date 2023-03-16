@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Lomake</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Säätietoja</h1>
+    <form id="oma">
+
+<br>Your name<br>
+<input type ="text" id="nimi"> <br>
+<button type="button" onclick="click_me()">Click here</button>
+<p>Your name: <span id="result"></span></p>
+<br> A digit:
+<input type="text" id="digit"> <br>
+<button type="button" onclick="add_one()">New number</button>
+<p> A digit: <span id="new_number"></span></p>
+<br>Celsius:
+<input type="text" id="celsius"> <br>
+<button type="button" onclick="weather()">Farenheit</button>
+<p>Farenheit: <span id="degrees"></span></p>
+
+
+</form>
+
+<div id="result"></div>
+<div id="degrees"></div>
+
+    
+</body>
+</html>
