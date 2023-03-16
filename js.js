@@ -1,13 +1,13 @@
 function click_me(){
     let nimi = document.getElementById("nimi").value;
-    document.getElementById("result").innerHTML= " Hello " + nimi + " , nice to meet you";
+    document.getElementById("result").innerHTML= " Hei " + nimi + ", hauska tutustua";
 }
 
 function add_one(){
     let digit = Number(document.getElementById("digit").value);
     digit++;
     let print = document.getElementById("new_number");
-    let text = "New number is " + digit;
+    let text = "Uusi luku on " + digit;
     print.innerHTML=text;
 
 }
